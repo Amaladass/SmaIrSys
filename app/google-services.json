@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "166188046726",
+    "firebase_url": "https://smartirrigationsystem-b49e8.firebaseio.com",
+    "project_id": "smartirrigationsystem-b49e8",
+    "storage_bucket": "smartirrigationsystem-b49e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166188046726:android:2d76b17e55978251573407",
+        "android_client_info": {
+          "package_name": "com.thinkers.smart_irrigation_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166188046726-on5sv167a75h5hgm3sudb6175i8172g6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thinkers.smart_irrigation_system",
+            "certificate_hash": "6e6ad5a53128a3e5e5f9e9a4476b7ea057ae0a36"
+          }
+        },
+        {
+          "client_id": "166188046726-titl9msujba91pabfv1pk3k41q4motei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvuTJm_sRORoXL7WixKA48UHIyPaE5qyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166188046726-titl9msujba91pabfv1pk3k41q4motei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
