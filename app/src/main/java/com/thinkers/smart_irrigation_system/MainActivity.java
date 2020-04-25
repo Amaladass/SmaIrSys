@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Toast.makeText(MainActivity.this, "Firebase Connection Success", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "Firebase Connected", Toast.LENGTH_SHORT).show();
 
     }
 }

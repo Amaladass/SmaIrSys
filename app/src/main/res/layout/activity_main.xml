@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    //FYI
 
         <TextView
             android:id="@+id/textView"
@@ -231,7 +232,7 @@
         android:layout_width="130dp"
         android:layout_height="39dp"
         android:background="#74FFFFFF"
-        android:text="Refresh"
+        android:text="Update"
         android:gravity="center"
         android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
