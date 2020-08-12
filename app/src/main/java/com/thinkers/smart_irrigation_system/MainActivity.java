@@ -20,8 +20,8 @@ import java.lang.reflect.Member;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView a,b,c,d,e,f,g;
-    Button btn;
+    TextView a,b,c,d,e,f,g,h,i;
+    Button btn,btn1,btn2;
     DatabaseReference reff;
 
     @Override
@@ -36,8 +36,12 @@ public class MainActivity extends AppCompatActivity {
         e = (TextView)findViewById(R.id.senview4);
         f = (TextView)findViewById(R.id.pumpview);
         g = (TextView)findViewById(R.id.sysview);
+        h = (TextView)findViewById(R.id.batview);
+        i = (TextView)findViewById(R.id.batview);
 
         btn = (Button)findViewById(R.id.button);
+        btn1 = (Button)findViewById(R.id.button1);
+        btn2 = (Button)findViewById(R.id.button2);
 
         btn.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -48,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
                         String bat = dataSnapshot.child("bat").getValue().toString();
+                        String bat1 = dataSnapshot.child("on").getValue().toString();
+                        String bat2 = dataSnapshot.child("off").getValue().toString();
                         String sen1 = dataSnapshot.child("sen1").getValue().toString();
                         String sen2 = dataSnapshot.child("sen2").getValue().toString();
                         String sen3 = dataSnapshot.child("sen3").getValue().toString();
